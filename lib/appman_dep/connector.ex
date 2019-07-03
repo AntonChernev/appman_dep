@@ -35,5 +35,5 @@ defmodule AppmanDep.Connector do
     {:noreply, false}
   end
 
-  def handle_info(:server_timeot, true), do: {:noreply, true}
+  def handle_info(:server_timeout, true), do: {:noreply, true}
 end
