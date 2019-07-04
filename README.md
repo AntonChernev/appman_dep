@@ -1,5 +1,5 @@
 # AppmanDep
-This project is needed as a dependency to enable Appman to run the application.
+This project is needed as a dependency to enable Appman **https://github.com/AntonChernev/appman** to run the application.
 
 ## Installation
 ```elixir
