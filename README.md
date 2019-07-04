@@ -5,7 +5,7 @@ This project is needed as a dependency to enable Appman **https://github.com/Ant
 ```elixir
 def deps do
   [
-    {:appman_dep, "~> 0.1.0"}
+    {:appman_dep, git: "https://github.com/AntonChernev/appman_dep"}
   ]
 end
 ```
