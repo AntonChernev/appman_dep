@@ -1,0 +1,5 @@
+%{
+  "dep_from_git": {:git, "https://github.com/onkel-dirtus/logger_file_backend", "05cc89fab4c13155609c61235d7844b1c9cd9797", []},
+  "logger_file_backed": {:git, "https://github.com/onkel-dirtus/logger_file_backend", "05cc89fab4c13155609c61235d7844b1c9cd9797", []},
+  "logger_file_backend": {:hex, :logger_file_backend, "0.0.10", "876f9f84ae110781207c54321ffbb62bebe02946fe3c13f0d7c5f5d8ad4fa910", [:mix], [], "hexpm"},
+}
