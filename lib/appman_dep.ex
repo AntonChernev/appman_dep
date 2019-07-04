@@ -1,2 +1,0 @@
-defmodule AppmanDep do
-end

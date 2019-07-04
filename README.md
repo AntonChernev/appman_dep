@@ -1,12 +1,7 @@
 # AppmanDep
-
-**TODO: Add description**
+This project is needed as a dependency to enable Appman to run the application.
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `appman_dep` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
@@ -15,7 +10,13 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/appman_dep](https://hexdocs.pm/appman_dep).
+## Configuration
+Add the following to your config file to enable logging:
+```elixir
+config :logger,
+  backends: [{LoggerFileBackend, :default_log}]
 
+config :logger, :default_log,
+  path: "/var/log/appman/default.log",
+  level: :debug
+```
